@@ -1,0 +1,22 @@
+{
+  "bundleDependencies": false,
+  "deprecated": false,
+  "description": "styland user interface",
+  "homepage": "https://github.com/serter35/styland-ui#readme",
+  "keywords": [
+    "styland-ui",
+    "ui",
+    "npm",
+    "vue",
+    "js",
+    "jquery"
+  ],
+  "license": "ISC",
+  "main": "index.js",
+  "name": "styland-ui",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/serter35/styland-ui.git"
+  },
+  "version": "1.0.18"
+}
