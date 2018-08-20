@@ -4,7 +4,7 @@
 
 | Name      | Required | Type    | Default |
 |-----------|----------|---------|---------|
-| source  | false    | String | undefined   |
+| source  | true    | String | undefined   |
 | lazy  | false    | Boolean | true   |
 | progress  | false    | Boolean | false   |
 
@@ -38,7 +38,7 @@ https://vuejs.org/v2/guide/syntax.html#v-bind-Shorthand
     Bu özellik ön tanımlı olarak kapalı olarak gelmektedir. Açmak için "true" değeri girilmelidir.
     Bu özelliğimiz fotoğrafın yükleme esnasında yüzdesel olarak ne kadar yüklendiği bilgisini vermeye imkan verir.
     Örnek kullanım aşağıdaki gibidir. Ancak kullanmadan önce aşağıdaki bilgilendirme kısımlarını okumayı lütfen unutmayınız.
- ````html
+ ````vue
         <sv-image 
             :progress="true" 
             source="http://localhost:8000/image/b?ext=jpg" 

@@ -1,4 +1,4 @@
-$(function () {
+function init() {
     $('.input-underline').each(function () {
         if($(this).val() !== '') {
             $(this).addClass('active');
@@ -11,7 +11,13 @@ $(function () {
             $(this).parent().removeClass('active');
         }
     });
+}
+
+$(function () {
+    init();
 });
+
+export default init;
 
 
 

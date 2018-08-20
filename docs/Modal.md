@@ -1,6 +1,6 @@
 ## Modal Component 
 
-#### References
+#### Referans (Props)
 
 | Name     | Required | Type    | Default |
 |----------|----------|---------|---------|
@@ -11,7 +11,7 @@
 * ##### Value (Prop)
     Bu özellik modal bileşenin gizle/göster işleminin gerçekleştirilmesini sağlayan özelliktir.
     
-````html
+````vue
     <modal :value="modalShow">
         <div class="mod-header" slot="header"></div>
         <div class="mod-body" slot="body"></div>
@@ -21,7 +21,7 @@
 * ##### Input (Event)
     Bu olay modal bileşenin gizle/göster işleminin üst bileşene gönderilmesi sağlayacaktır.
     
-````html
+````vue
     <modal :value="modalShow" @input="val => modalShow = val">
         <div class="mod-header" slot="header"></div>
         <div class="mod-body" slot="body"></div>
@@ -33,7 +33,7 @@
 Aşağıda vereceğimiz bu kullanım kesinlikle çok daha pratik bir kullanımdır. 
 Ancak alt yapısında aslında yukarıda detaylandırılan özellik ve olaylar kullanılacaktır. 
 
-````html
+````vue
     <modal v-model="modalShow">
         <div class="mod-header" slot="header"></div>
         <div class="mod-body" slot="body"></div>
